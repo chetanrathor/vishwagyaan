@@ -1,10 +1,5 @@
 import Image from "next/image";
 import MutualFund from '../../assets/images/lifeinsurance.jpg'
-interface BlogRowProps {
-  image: string;
-  title: string;
-  description: string;
-}
 
 const LifeInsurance: React.FC = () => {
   return (

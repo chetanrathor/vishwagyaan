@@ -1,14 +1,12 @@
-"use client"
-import { useRouter } from 'next/navigation';
 // import { useTranslation } from 'react-i18next';
 
 const Header: React.FC = () => {
-  const router = useRouter();
+  // const router = useRouter();
 //   const { t } = useTranslation();
 
-  const changeLanguage = (locale: string) => {
-    router.push('/');
-  };
+  // const changeLanguage = (locale: string) => {
+  //   router.push('/');
+  // };
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">

@@ -16,12 +16,6 @@ import TimeManagementImage from '../../assets/images/timeManagement.jpg';
 import ChildGoodMealImage from '../../assets/images/child-discipline.jpg';
 import DigitalMarketingImage from '../../assets/images/digitalMarketing.jpg';
 
-interface BlogRowProps {
-  image: string;
-  title: string;
-  description: string;
-}
-
 const HealthInsurance: React.FC = () => {
   return (
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
