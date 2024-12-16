@@ -14,7 +14,7 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-900">Medium</div>
+        <div className="text-2xl font-bold text-gray-900">Vishwagyaan</div>
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-6">
