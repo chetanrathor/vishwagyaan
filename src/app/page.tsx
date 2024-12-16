@@ -1,7 +1,16 @@
-import ComingSoon from "./components/ComingSoon";
+// import { appWithTranslation } from "next-i18next";
+import Blogs from "./components/Blogs";
+import Header from "./components/Header";
 
-export default function Home() {
+ function Home() {
   return (
-    <ComingSoon></ComingSoon>
+    // <ComingSoon></ComingSoon>
+    <>
+      <Header></Header>
+      <Blogs></Blogs>
+    </>
   );
 }
+
+export default Home
+// export default appWithTranslation(Home);
