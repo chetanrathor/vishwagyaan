@@ -1,5 +1,5 @@
+import { LifeInsuranceImage } from "@/app/assets";
 import Image from "next/image";
-import MutualFund from '../../assets/images/lifeinsurance.jpg'
 
 const LifeInsurance: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const LifeInsurance: React.FC = () => {
       {/* Fixed Image Section */}
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={MutualFund}
+          src={LifeInsuranceImage}
           alt={'Mutual Fund Image Representing Money'}
           layout="fill"
           objectFit="cover"

@@ -1,5 +1,5 @@
+import { MutualFundImag } from "@/app/assets";
 import Image from "next/image";
-import MutualFund from '../../assets/images/MutualFund.jpg'
 
 
 const MutualFundBlogRow: React.FC = () => {
@@ -8,7 +8,7 @@ const MutualFundBlogRow: React.FC = () => {
       {/* Fixed Image Section */}
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={MutualFund}
+          src={MutualFundImag}
           alt={'Mutual Fund Image Representing Money'}
           layout="fill"
           objectFit="cover"

@@ -1,20 +1,6 @@
+import { CareerImag, ChildDisciplineImage, ChildGoodMealImage, DigitalDetoxImage, DigitalMarketingImage, FinancialImage, FitnessImage, FreelancingImage, HealthImage, InvestingImage, LifeStyleImage, MentalHealthImage, RealStateImage, TimeManagementImage, TouristImage, YogaImage } from "@/app/assets";
 import Image from "next/image";
-import HealthInsuranceImage from '../../assets/images/health.jpg'
-import LifeStyleImage from '../../assets/images/lifestyle.jpg'
-import ChildDisciplineImage from '../../assets/images/child-discipline.jpg'
-import RealStateImage from '../../assets/images/realstate.jpg'
-import YoagImage from '../../assets/images/yoga.jpg'
-import FinancialPlanning from '../../assets/images/financial.jpg';
-import FitnessTips from '../../assets/images/fitness.jpg';
-import CareerGrowth from '../../assets/images/career.jpg';
-import DigitalDetox from '../../assets/images/digitaldetox.jpg';
-import TouristImage from '../../assets/images/tourist.jpg';
-import FreeLancing from '../../assets/images/freelancing.jpg';
-import MentalHealthImage from '../../assets/images/mentalHealth.jpg';
-import InvestingImage from '../../assets/images/Investing.jpg';
-import TimeManagementImage from '../../assets/images/timeManagement.jpg';
-import ChildGoodMealImage from '../../assets/images/child-discipline.jpg';
-import DigitalMarketingImage from '../../assets/images/digitalMarketing.jpg';
+
 
 const HealthInsurance: React.FC = () => {
   return (
@@ -22,7 +8,7 @@ const HealthInsurance: React.FC = () => {
       {/* Fixed Image Section */}
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={HealthInsuranceImage}
+          src={HealthImage}
           alt={'Image for HealthInsurance'}
           layout="fill"
           objectFit="cover"
@@ -129,7 +115,7 @@ const YogaComponent: React.FC = () => {
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={YoagImage}
+          src={YogaImage}
           alt={'Yoga Image Representing Health and Peace'}
           layout="fill"
           objectFit="cover"
@@ -156,7 +142,7 @@ const FinancialPlanningComponent: React.FC = () => {
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={FinancialPlanning}
+          src={FinancialImage}
           alt={'Financial Planning Image Representing Savings and Investments'}
           layout="fill"
           objectFit="cover"
@@ -181,7 +167,7 @@ const FitnessTipsComponent: React.FC = () => {
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={FitnessTips}
+          src={FitnessImage}
           alt={'Fitness Tips Image Representing Health and Exercise'}
           layout="fill"
           objectFit="cover"
@@ -206,7 +192,7 @@ const CareerGrowthComponent: React.FC = () => {
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={CareerGrowth}
+          src={CareerImag}
           alt={'Career Growth Image Representing Professional Success'}
           layout="fill"
           objectFit="cover"
@@ -231,7 +217,7 @@ const DigitalDetoxComponent: React.FC = () => {
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={DigitalDetox}
+          src={DigitalDetoxImage}
           alt={'Digital Detox Image Representing Mindful Living'}
           layout="fill"
           objectFit="cover"
@@ -369,7 +355,7 @@ const Freelancing: React.FC = () => {
     <div className="flex items-center bg-white shadow-lg rounded-lg overflow-hidden h-[100px] mb-4 gap-4">
       <div className="w-[100px] h-full relative flex-shrink-0">
         <Image
-          src={FreeLancing}
+          src={FreelancingImage}
           alt={'Image for Freelancing'}
           layout="fill"
           objectFit="cover"

@@ -1,5 +1,8 @@
 import type { NextConfig } from "next";
 const { i18n } = require('./next-i18next.config');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 const nextConfig: NextConfig = {
   /* config options here */
   i18n,
@@ -8,4 +11,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(nextConfig);
