@@ -1,4 +1,4 @@
-import { LifeInsuranceImage } from "@/app/assets";
+import { LifeInsuranceImage } from "@/assets";
 import Image from "next/image";
 
 const LifeInsurance: React.FC = () => {

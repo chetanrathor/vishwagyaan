@@ -1,4 +1,5 @@
 
+'use client'
 import { CareerGrowthComponent, ChildGoodMeal, ChildrenDisciplineComponent, DigitalDetoxComponent, DigitalMarketing, FinancialPlanningComponent, FitnessTipsComponent, Freelancing, HealthInsurance, HomeBuyingTipsComponent, IndiasFamousTouristPlaces, Investing, MentalHealth, SustainableLifestyleComponent, TimeManagement, YogaComponent } from "./Data/HealthInsurance";
 import LifeInsurance from "./Data/LifeInsurance";
 import MutualFundBlogRow from "./Data/MutualFundBlogRow";

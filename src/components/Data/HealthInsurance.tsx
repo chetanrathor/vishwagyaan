@@ -1,4 +1,4 @@
-import { CareerImag, ChildDisciplineImage, ChildGoodMealImage, DigitalDetoxImage, DigitalMarketingImage, FinancialImage, FitnessImage, FreelancingImage, HealthImage, InvestingImage, LifeStyleImage, MentalHealthImage, RealStateImage, TimeManagementImage, TouristImage, YogaImage } from "@/app/assets";
+import { CareerImag, ChildDisciplineImage, ChildGoodMealImage, DigitalDetoxImage, DigitalMarketingImage, FinancialImage, FitnessImage, FreelancingImage, HealthImage, InvestingImage, LifeStyleImage, MentalHealthImage, RealStateImage, TimeManagementImage, TouristImage, YogaImage } from "@/assets";
 import Image from "next/image";
 
 
